@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cadastre seu interesse no projeto demonstrativo SemeIA, conceito de sistema para produtores de arroz.">
+  <title>Cadastro | SemeIA</title>
+  <link rel="icon" href="assets/folha.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip_link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="topbar"><div class="container navbar"><a class="brand" href="index.html"><img src="assets/folha.svg" alt=""><span>Seme<strong>IA</strong></span></a><button class="menu_button" type="button" aria-label="Abrir menu" aria-expanded="false"><span></span></button><nav aria-label="Navegação principal"><ul class="nav_links"><li><a href="index.html" data-page="index.html">Home</a></li><li><a href="sobre.html" data-page="sobre.html">Sobre</a></li><li><a href="contato.html" data-page="contato.html">Contato</a></li><li><a class="nav_cta" href="cadastro.html" data-page="cadastro.html">Cadastro</a></li></ul></nav></div></header>
+
+  <main id="conteudo">
+    <section class="page_hero register_hero"><div class="container reveal"><div class="eyebrow"><span class="eyebrow_dot"></span> Cadastro de interessados</div><h1>Conte um pouco sobre sua produção</h1><p>Este formulário demonstra como produtores, cooperativas e empresas agrícolas poderão registrar interesse em conhecer o SemeIA.</p></div></section>
+
+    <section class="section">
+      <div class="container form_layout">
+        <aside class="contact_panel reveal">
+          <div class="contact_panel_top"><span class="kicker" style="color:#d9bd6d">Por que se cadastrar</span><h3>Ajude a aproximar o conceito da realidade do campo</h3><p>As perguntas foram pensadas para entender o perfil da propriedade e o contexto da produção de arroz.</p></div>
+          <div class="contact_items">
+            <div class="contact_item"><span>Público</span><strong>Produtores, cooperativas e empresas agrícolas</strong></div>
+            <div class="contact_item"><span>Abrangência</span><strong>Todo o Brasil</strong></div>
+            <div class="contact_item"><span>Status</span><strong>Projeto demonstrativo</strong></div>
+            <div class="contact_item"><span>Dados nesta versão</span><strong>Não são enviados nem armazenados</strong></div>
+          </div>
+        </aside>
+
+        <div class="form_card reveal">
+          <span class="kicker">Formulário demonstrativo</span>
+          <h2>Quero conhecer o SemeIA</h2>
+          <p class="form_intro">Preencha os campos abaixo para testar a experiência do cadastro. O botão apenas exibe uma confirmação no navegador.</p>
+          <form id="interestForm">
+            <div class="form_grid">
+              <div class="form_group full"><label for="nome">Nome completo</label><input id="nome" name="nome" type="text" autocomplete="name" required></div>
+              <div class="form_group full"><label for="empresa">Propriedade ou empresa</label><input id="empresa" name="empresa" type="text" required></div>
+              <div class="form_group"><label for="cidade">Cidade</label><input id="cidade" name="cidade" type="text" autocomplete="address-level2" required></div>
+              <div class="form_group"><label for="estado">Estado</label><select id="estado" name="estado" required><option value="">Selecione</option><option>AC</option><option>AL</option><option>AP</option><option>AM</option><option>BA</option><option>CE</option><option>DF</option><option>ES</option><option>GO</option><option>MA</option><option>MT</option><option>MS</option><option>MG</option><option>PA</option><option>PB</option><option>PR</option><option>PE</option><option>PI</option><option>RJ</option><option>RN</option><option>RS</option><option>RO</option><option>RR</option><option>SC</option><option>SP</option><option>SE</option><option>TO</option></select></div>
+              <div class="form_group"><label for="telefone">Telefone</label><input id="telefone" name="telefone" type="tel" autocomplete="tel" required placeholder="(00) 00000 0000"></div>
+              <div class="form_group"><label for="whatsapp">WhatsApp</label><input id="whatsapp" name="whatsapp" type="tel" required placeholder="(00) 00000 0000"></div>
+              <div class="form_group full"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+              <div class="form_group"><label for="hectares">Área plantada em hectares</label><input id="hectares" name="hectares" type="number" min="0" step="0.1" required placeholder="Exemplo: 180"></div>
+              <div class="form_group"><label for="quadras">Quantidade aproximada de quadras</label><input id="quadras" name="quadras" type="number" min="1" step="1" required placeholder="Exemplo: 8"></div>
+              <div class="form_group full"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" placeholder="Conte sobre sua produção, desafios ou o que gostaria de acompanhar no SemeIA"></textarea></div>
+            </div>
+            <div class="form_note">Importante: este site é uma demonstração. O formulário não possui backend e não transmite os dados preenchidos.</div>
+            <label class="inline_check"><input type="checkbox" required><span>Estou ciente de que o SemeIA é um projeto demonstrativo e que este cadastro não representa contratação ou disponibilidade comercial do sistema.</span></label>
+            <button class="button button_primary" type="submit">Quero conhecer o SemeIA</button>
+            <div class="form_success" id="interestSuccess" role="status">Cadastro demonstrativo concluído. Obrigado pelo interesse no SemeIA. Nenhum dado foi enviado ou armazenado.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section_white">
+      <div class="container split">
+        <div class="reveal"><span class="kicker">Próxima evolução</span><h2 class="section_title">Do conceito para uma futura validação com produtores</h2><p style="margin-top:18px;color:var(--cinza_medio)">A página foi construída para apresentar a experiência de captação de interessados. Em uma versão real, o formulário poderá ser conectado a um banco de dados, CRM ou serviço de email, além de receber política de privacidade e consentimento de uso de dados.</p></div>
+        <div class="feature_card reveal" style="min-height:auto"><h3>O que uma versão real poderá incluir</h3><ul class="check_list"><li><span class="check_mark">✓</span><span>Envio seguro das informações do cadastro.</span></li><li><span class="check_mark">✓</span><span>Confirmação por email ou WhatsApp.</span></li><li><span class="check_mark">✓</span><span>Integração com CRM para acompanhar interessados.</span></li><li><span class="check_mark">✓</span><span>Política de privacidade adequada à LGPD.</span></li></ul></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer_grid"><div><a class="brand" href="index.html"><img src="assets/folha.svg" alt=""><span>Seme<strong>IA</strong></span></a><p class="footer_about">Projeto demonstrativo de um sistema para apoiar a gestão de lavouras de arroz.</p></div><div><h4>Navegação</h4><ul class="footer_links"><li><a href="index.html">Home</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="contato.html">Contato</a></li><li><a href="cadastro.html">Cadastro</a></li></ul></div><div><h4>Contato</h4><ul class="footer_links"><li><a href="tel:+5551989509487">(51) 98950 9487</a></li><li><a href="mailto:eder.silva1979@gmail.com">eder.silva1979@gmail.com</a></li><li><a href="https://instagram.com/eder.silva1979" target="_blank" rel="noopener">@eder.silva1979</a></li></ul></div></div><div class="footer_bottom"><span>© 2026 SemeIA. Projeto demonstrativo.</span><span class="demo_badge">Conceito em desenvolvimento</span></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

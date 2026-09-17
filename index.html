@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SemeIA é um projeto demonstrativo de agricultura inteligente para apoiar produtores de arroz com sensores, mapa por quadras, gestão de custos e aplicativo mobile.">
+  <title>SemeIA | Inteligência que cultiva resultados</title>
+  <link rel="icon" href="assets/folha.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip_link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="topbar">
+    <div class="container navbar">
+      <a class="brand" href="index.html" aria-label="SemeIA Home">
+        <img src="assets/folha.svg" alt="">
+        <span>Seme<strong>IA</strong></span>
+      </a>
+
+      <button class="menu_button" type="button" aria-label="Abrir menu" aria-expanded="false"><span></span></button>
+
+      <nav aria-label="Navegação principal">
+        <ul class="nav_links">
+          <li><a href="index.html" data-page="index.html">Home</a></li>
+          <li><a href="sobre.html" data-page="sobre.html">Sobre</a></li>
+          <li><a href="contato.html" data-page="contato.html">Contato</a></li>
+          <li><a class="nav_cta" href="cadastro.html" data-page="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container hero_grid">
+        <div class="hero_copy reveal">
+          <div class="eyebrow"><span class="eyebrow_dot"></span> Projeto demonstrativo de agricultura inteligente</div>
+          <h1>SemeIA. <span>Inteligência que cultiva resultados.</span></h1>
+          <p class="hero_text">Uma proposta de sistema para produtores de arroz que reúne dados de sensores, geolocalização, mapa por quadras, custos da lavoura e projeções da safra em uma visão única.</p>
+          <div class="hero_actions">
+            <a class="button button_primary" href="cadastro.html">Quero conhecer o SemeIA</a>
+            <a class="button button_secondary" href="#como_funciona">Ver como funciona</a>
+          </div>
+          <div class="hero_note"><span class="hero_note_icon">i</span><span>Conceito em desenvolvimento. Os recursos apresentados representam a visão futura do produto.</span></div>
+        </div>
+
+        <div class="hero_visual reveal" aria-label="Mascote SemeIA">
+          <div class="mascot_glow"></div>
+          <div class="sensor_chip sensor_chip_one"><strong>Umidade do solo</strong><span>Leitura por sensor em cada área</span></div>
+          <div class="sensor_chip sensor_chip_two"><strong>Mapa por quadras</strong><span>Status visual da lavoura</span></div>
+          <div class="sensor_chip sensor_chip_three"><strong>Custos e projeção</strong><span>Decisões com visão financeira</span></div>
+          <img class="mascot" src="assets/semeia_mascote.png" alt="SemeIA, mascote em formato de grão de arroz com elementos de tecnologia e agricultura">
+        </div>
+      </div>
+    </section>
+
+    <div class="container stats_grid" aria-label="Destaques do conceito SemeIA">
+      <div class="stat_card reveal"><div class="stat_number"><span data-count="3">0</span></div><p>variáveis principais acompanhadas por sensores</p></div>
+      <div class="stat_card reveal"><div class="stat_number"><span data-count="4">0</span></div><p>quadras na demonstração visual da lavoura</p></div>
+      <div class="stat_card reveal"><div class="stat_number"><span data-count="1">0</span></div><p>visão integrada para produção, custos e projeções</p></div>
+    </div>
+
+    <section class="section section_white" id="como_funciona">
+      <div class="container">
+        <div class="section_head center reveal">
+          <span class="kicker">Do campo para a decisão</span>
+          <h2>Informações da lavoura reunidas em um só lugar</h2>
+          <p>O conceito do SemeIA conecta dados agronômicos e financeiros para facilitar o acompanhamento da produção de arroz, independentemente do porte da propriedade.</p>
+        </div>
+
+        <div class="feature_grid">
+          <article class="feature_card reveal">
+            <div class="feature_icon"><svg viewBox="0 0 24 24"><path d="M12 3v7"/><path d="M8 5h8"/><path d="M9 10v8a3 3 0 0 0 6 0v-8"/><path d="M12 14v4"/></svg></div>
+            <h3>Sensores na lavoura</h3>
+            <p>Leituras de umidade do solo, temperatura e registros de insumos aplicados ajudam a compor o histórico de cada área cultivada.</p>
+          </article>
+          <article class="feature_card reveal">
+            <div class="feature_icon"><svg viewBox="0 0 24 24"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3V6Z"/><path d="M9 3v15"/><path d="M15 6v15"/></svg></div>
+            <h3>Mapa inteligente</h3>
+            <p>A propriedade pode ser organizada em quadras geolocalizadas, com leitura visual da situação de cada ponto da lavoura.</p>
+          </article>
+          <article class="feature_card reveal">
+            <div class="feature_icon"><svg viewBox="0 0 24 24"><path d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2"/></svg></div>
+            <h3>Geolocalização</h3>
+            <p>O mapa permite situar as quadras cultivadas e relacionar cada ponto aos dados coletados no campo.</p>
+          </article>
+          <article class="feature_card reveal">
+            <div class="feature_icon"><svg viewBox="0 0 24 24"><path d="M4 19V5"/><path d="M4 19h16"/><path d="M7 15l4-4 3 2 5-6"/></svg></div>
+            <h3>Gestão de custos</h3>
+            <p>Insumos, horas trabalhadas e demais despesas informadas pelo produtor alimentam uma visão consolidada dos custos da safra.</p>
+          </article>
+          <article class="feature_card reveal">
+            <div class="feature_icon"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M10 18h4"/></svg></div>
+            <h3>Aplicativo mobile</h3>
+            <p>O conceito prevê acesso pelo celular para acompanhar quadras, sensores, custos e alertas diretamente no campo.</p>
+          </article>
+          <article class="feature_card reveal">
+            <div class="feature_icon"><svg viewBox="0 0 24 24"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/></svg></div>
+            <h3>Projeção da safra</h3>
+            <p>Com dados de custos e produção estimada, o sistema pode apoiar simulações de custo total e resultado projetado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="photo_frame reveal">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1772485329745-ad359733d96e?auto=format&fit=crop&fm=jpg&q=82&w=1200" alt="Produtor trabalhando em área de cultivo de arroz">
+          <div class="photo_badge">Tecnologia conectada à rotina do campo</div>
+        </div>
+        <div class="reveal">
+          <span class="kicker">Monitoramento contínuo</span>
+          <h2 class="section_title">Dados que ajudam a enxergar melhor cada etapa do plantio</h2>
+          <p style="margin-top:18px;color:var(--cinza_medio)">O SemeIA foi pensado para organizar informações que normalmente ficam espalhadas em anotações, planilhas ou na experiência diária do produtor.</p>
+          <ul class="check_list">
+            <li><span class="check_mark">✓</span><span><strong>Umidade do solo</strong><br>Visualização do comportamento da umidade ao longo das quadras.</span></li>
+            <li><span class="check_mark">✓</span><span><strong>Temperatura</strong><br>Registro de temperatura associado ao contexto de cada área cultivada.</span></li>
+            <li><span class="check_mark">✓</span><span><strong>Insumos aplicados</strong><br>Histórico para registrar o que foi aplicado, em qual área e em qual momento.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section_white">
+      <div class="container">
+        <div class="section_head reveal">
+          <span class="kicker">Mapa da lavoura</span>
+          <h2>Uma leitura visual da situação de cada quadra</h2>
+          <p>O mapa demonstrativo usa cores simples para indicar o estado de acompanhamento de cada área, facilitando a identificação de pontos que merecem atenção.</p>
+        </div>
+
+        <div class="map_panel reveal">
+          <div class="field_map">
+            <div class="map_label">🌾 Lavoura demonstrativa</div>
+            <div class="quadras">
+              <div class="quadra quadra_ok"><span>Quadra 01</span></div>
+              <div class="quadra quadra_attention"><span>Quadra 02</span></div>
+              <div class="quadra quadra_alert"><span>Quadra 03</span></div>
+              <div class="quadra quadra_ok quadra_four"><span>Quadra 04</span></div>
+            </div>
+          </div>
+          <div class="map_info">
+            <h3>Status das quadras</h3>
+            <p>Exemplo visual para demonstrar como o produtor poderá identificar rapidamente situações diferentes dentro da propriedade.</p>
+            <div class="legend">
+              <div class="legend_item"><span class="legend_dot ok"></span><div><strong>Quadra 01</strong><span>Condições adequadas</span></div></div>
+              <div class="legend_item"><span class="legend_dot attention"></span><div><strong>Quadra 02</strong><span>Atenção à umidade</span></div></div>
+              <div class="legend_item"><span class="legend_dot alert"></span><div><strong>Quadra 03</strong><span>Necessidade de intervenção</span></div></div>
+              <div class="legend_item"><span class="legend_dot ok"></span><div><strong>Quadra 04</strong><span>Desenvolvimento normal</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section_dark">
+      <div class="container">
+        <div class="section_head center reveal">
+          <span class="kicker">Aplicativo mobile</span>
+          <h2>A lavoura no bolso do produtor</h2>
+          <p>Mockups conceituais mostram como o aplicativo poderá apresentar mapa, sensores, custos e projeções de forma rápida no celular.</p>
+        </div>
+
+        <div class="phones">
+          <div class="phone reveal">
+            <div class="phone_top"></div>
+            <div class="app_header"><span>SemeIA</span><span class="app_avatar">🌱</span></div>
+            <div class="app_body">
+              <div class="app_card"><strong>Mapa das quadras</strong><div class="mini_map" style="margin-top:12px"><div style="background:#5aa25a"></div><div style="background:#d6ae35"></div><div style="background:#c95648"></div><div style="background:#5aa25a"></div></div></div>
+              <div class="app_card"><small>Quadra selecionada</small><div class="app_metric"><strong>Quadra 02</strong><span>Umidade em atenção</span></div></div>
+            </div>
+          </div>
+
+          <div class="phone reveal">
+            <div class="phone_top"></div>
+            <div class="app_header"><span>SemeIA</span><span class="app_avatar">📡</span></div>
+            <div class="app_body">
+              <div class="app_card"><small>Umidade do solo</small><div class="metric_value">68%</div><div class="mini_bar"><span style="width:68%"></span></div></div>
+              <div class="app_card"><small>Temperatura</small><div class="metric_value">24,6 °C</div><div class="mini_bar"><span style="width:56%"></span></div></div>
+              <div class="app_card"><strong>Últimos registros</strong><div style="margin-top:12px;color:#657168;font-size:.9rem">Insumo aplicado registrado<br>Quadra 01 atualizada<br>Sensor da Quadra 03 sinalizou atenção</div></div>
+            </div>
+          </div>
+
+          <div class="phone reveal">
+            <div class="phone_top"></div>
+            <div class="app_header"><span>SemeIA</span><span class="app_avatar">R$</span></div>
+            <div class="app_body">
+              <div class="app_card"><small>Custo acumulado</small><div class="metric_value">R$ 184 mil</div><div class="chart"><span style="height:35%"></span><span style="height:55%"></span><span style="height:68%"></span><span style="height:48%"></span><span style="height:84%"></span><span style="height:72%"></span></div></div>
+              <div class="app_card"><small>Resultado projetado</small><div class="app_metric"><strong style="color:#2f7c39">Positivo</strong><span>Simulação conceitual</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section_white">
+      <div class="container">
+        <div class="section_head center reveal">
+          <span class="kicker">Fluxo do sistema</span>
+          <h2>Da leitura do sensor até a visão gerencial</h2>
+        </div>
+        <div class="process_grid">
+          <article class="process_card reveal"><h3>Coleta</h3><p>Sensores distribuídos na lavoura enviam leituras de campo para a plataforma.</p></article>
+          <article class="process_card reveal"><h3>Organização</h3><p>Os dados são associados às quadras e ao histórico de cada área plantada.</p></article>
+          <article class="process_card reveal"><h3>Visualização</h3><p>Mapa e painéis transformam as informações em indicadores fáceis de consultar.</p></article>
+          <article class="process_card reveal"><h3>Decisão</h3><p>O produtor cruza produção, custos e sinais de atenção para planejar as próximas ações.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section_dark">
+      <div class="container cost_panel">
+        <div class="reveal">
+          <span class="kicker">Gestão econômica</span>
+          <h2>O campo também precisa de visão financeira</h2>
+          <p style="margin-top:16px;color:#c6d5cb">O produtor poderá registrar despesas da safra para acompanhar custos e criar cenários de projeção antes da colheita.</p>
+          <div class="cost_cards" style="margin-top:26px">
+            <div class="cost_card"><div><strong>Insumos</strong><span>sementes, fertilizantes e demais aplicações</span></div><span>Registro manual</span></div>
+            <div class="cost_card"><div><strong>Horas trabalhadas</strong><span>mão de obra e atividades da propriedade</span></div><span>Por período</span></div>
+            <div class="cost_card"><div><strong>Outros custos</strong><span>itens definidos pelo próprio produtor</span></div><span>Personalizável</span></div>
+          </div>
+        </div>
+        <div class="projection_card reveal">
+          <span class="kicker">Exemplo conceitual</span>
+          <h3>Projeção de safra</h3>
+          <div class="projection_row"><span>Área cultivada</span><strong>180 ha</strong></div>
+          <div class="projection_row"><span>Custo estimado</span><strong>R$ 1,1 mi</strong></div>
+          <div class="projection_row"><span>Produção projetada</span><strong>1.420 t</strong></div>
+          <div class="projection_row"><span>Resultado projetado</span><strong>Simulação dinâmica</strong></div>
+          <p style="margin-top:14px;color:#6a756e;font-size:.85rem">Valores meramente ilustrativos para apresentação do conceito. Não representam recomendação financeira ou agronômica.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="photo_band">
+      <div class="container photo_band_content reveal">
+        <span class="kicker">Do plantio à colheita</span>
+        <h2>Mais contexto para acompanhar a lavoura durante toda a safra</h2>
+        <p>O projeto SemeIA busca aproximar tecnologia, gestão e rotina agrícola em uma experiência simples para pequenos, médios e grandes produtores, cooperativas e empresas agrícolas.</p>
+        <a class="button button_gold" href="sobre.html">Conhecer o projeto</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta_box reveal">
+        <div>
+          <span class="kicker">Interesse no projeto</span>
+          <h2>Quer acompanhar a evolução do SemeIA?</h2>
+          <p>Cadastre seus dados e conte um pouco sobre sua propriedade. Nesta versão demonstrativa, o formulário apenas simula o envio no navegador.</p>
+        </div>
+        <div class="cta_actions"><a class="button button_gold" href="cadastro.html">Quero conhecer o SemeIA</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_grid">
+        <div>
+          <a class="brand" href="index.html"><img src="assets/folha.svg" alt=""><span>Seme<strong>IA</strong></span></a>
+          <p class="footer_about">Projeto demonstrativo de um sistema para apoiar a gestão de lavouras de arroz com sensores, mapa por quadras, aplicativo mobile e acompanhamento de custos.</p>
+        </div>
+        <div>
+          <h4>Navegação</h4>
+          <ul class="footer_links"><li><a href="index.html">Home</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="contato.html">Contato</a></li><li><a href="cadastro.html">Cadastro</a></li></ul>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <ul class="footer_links"><li><a href="tel:+5551989509487">(51) 98950 9487</a></li><li><a href="mailto:eder.silva1979@gmail.com">eder.silva1979@gmail.com</a></li><li><a href="https://instagram.com/eder.silva1979" target="_blank" rel="noopener">@eder.silva1979</a></li></ul>
+        </div>
+      </div>
+      <div class="footer_bottom"><span>© 2026 SemeIA. Projeto demonstrativo.</span><span class="demo_badge">Conceito em desenvolvimento</span></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
